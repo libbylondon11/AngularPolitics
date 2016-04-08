@@ -1,0 +1,26 @@
+.container {
+    background-image: url(https://syrianfreepress.files.wordpress.com/2013/11/jfk-usa-flag.jpg);
+    opacity: 0.8;
+}
+h1 {
+  color: white;
+  font: 20px helvetica;
+}
+li {
+  color: white;
+  font: helvetica;
+}
+body {
+  color: white;
+  font: helvetica;
+}
+ul {
+  color: white;
+  font: helvetica;
+  font-size: 20px;
+}
+div {
+  color: white;
+  font: helvetica;
+  font-size: 20px;
+}

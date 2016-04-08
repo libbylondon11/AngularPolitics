@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="polApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Politics Game: Angular</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+
+  </head>
+  <div class="container";
+  <body ng-controller="FirstController">
+    <h1> {{message}} Who will win? </h1>
+    Democrats:
+    <ul>
+      <li ng-repeat="person in democrats">
+        {{person}}
+      </li>
+    </ul>
+    Republicans:
+    <ul>
+      <li ng-repeat="elephants in republicans">
+      {{elephants}}
+    </li>
+  </ul>
+  <div ng-controller="SecondController">
+    <button ng-click="buttonClick()">button</button>
+
+    <div ng-show="theButtonClicked">
+      <h1>The Winner!</h1>
+      {{winning}}
+      <ul>
+        <!-- <li ng-repeat="winning in winners">
+          {{winning}}
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
